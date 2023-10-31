@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.3.5
+  
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +21,17 @@ flutter:
   uses-material-design: true
   assets: 
     - images/meditacion.jpg
+    - images/logogoku.png
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: images/logogoku.png
+  color_dark: "#6D6A6A"
+  image_dark: images/logogoku.png   
+
+android_12:
+  image: images/logogoku.png
+  icon_background_color: "#ffffff"
+  image_dark: images/logogoku.png 
+  icon_background_color_dark: "#121212"
